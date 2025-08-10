@@ -1,1 +1,1 @@
-# Denoising-Diffusion-model-with-Proximal-Alternating-Linearized-Minimization
+# Denoising Diffusion model with Proximal Alternating Linearized Minimization for image fusion
