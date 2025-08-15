@@ -1,7 +1,10 @@
 # Denoising Diffusion model with Proximal Alternating Linearized Minimization for image fusion
 
 ## Usage
-We recommend following the instructions provided in the GitHub repository [Denoising Diffusion Model for Multi-Modality Image fusion](https://github.com/Zhaozixiang1228/MMIF-DDFM), as the original code (which we modified for our needs) comes from there. Follow the instructions provided with the files given in our repository.
+We recommend following the instructions provided in the GitHub repository [Denoising Diffusion Model for Multi-Modality Image fusion](https://github.com/Zhaozixiang1228/MMIF-DDFM), as the original code (which we modified for our needs) comes from there. Follow the instructions provided with the files given in our repository. If you want to infer with our DDFM-PALM model and obtain the fusion results in the report, please run
+```python
+!python sampleTLSE.py
+```
 
 ## Citations
 If you use the code or dataset, please cite the papers as below :
