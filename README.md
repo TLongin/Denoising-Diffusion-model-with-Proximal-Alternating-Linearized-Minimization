@@ -1,7 +1,7 @@
 # Denoising Diffusion model with Proximal Alternating Linearized Minimization for image fusion
 
 ## Usage
-We recommend following the instructions provided in the GitHub repository [https://github.com/Zhaozixiang1228/MMIF-DDFM](Denoising Diffusion Model for Multi-Modality Image fusion), as the original code (which we modified for our needs) comes from there. Follow the instructions provided with the files given in our repository.
+We recommend following the instructions provided in the GitHub repository [Denoising Diffusion Model for Multi-Modality Image fusion]([https://ieeexplore.ieee.org/document/9018380](https://github.com/Zhaozixiang1228/MMIF-DDFM))[](), as the original code (which we modified for our needs) comes from there. Follow the instructions provided with the files given in our repository.
 
 ## Citations
 If you use the code or dataset, please cite the papers as below :
