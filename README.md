@@ -1,7 +1,7 @@
 # Denoising Diffusion model with Proximal Alternating Linearized Minimization for image fusion
 
 ## Report
-For further details regarding this work, please refer to the report [Fusion d'images par résonance magnétique et ultrasons](https://drive.google.com/file/d/1EqD42Iw54JGWqdoAzLa9iBXeZQF84VMq/view?usp=drive_link).
+For further details regarding this work, please refer to the report [Fusion d'images par résonance magnétique et ultrasons](https://drive.google.com/file/d/1EqD42Iw54JGWqdoAzLa9iBXeZQF84VMq/view?usp=drive_link) (french version).
 
 ## Usage
 We recommend following the instructions provided in the GitHub repository [Denoising Diffusion Model for Multi-Modality Image fusion](https://github.com/Zhaozixiang1228/MMIF-DDFM), as the original code (which we modified for our needs) comes from there. Follow the instructions provided with the files given in our repository. If you want to infer with our DDFM-PALM model and obtain the fusion results in the report, please run
