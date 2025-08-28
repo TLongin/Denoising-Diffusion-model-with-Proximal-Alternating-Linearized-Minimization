@@ -1,10 +1,14 @@
 # Denoising Diffusion model with Proximal Alternating Linearized Minimization for image fusion
 
+## Report
+For further details regarding this work, please refer to the report [Fusion d'images par résonance magnétique et ultrasons](https://drive.google.com/file/d/1EqD42Iw54JGWqdoAzLa9iBXeZQF84VMq/view?usp=drive_link).
+
 ## Usage
 We recommend following the instructions provided in the GitHub repository [Denoising Diffusion Model for Multi-Modality Image fusion](https://github.com/Zhaozixiang1228/MMIF-DDFM), as the original code (which we modified for our needs) comes from there. Follow the instructions provided with the files given in our repository. If you want to infer with our DDFM-PALM model and obtain the fusion results in the report, please run
 ```python
 !python sampleTLSE.py
 ```
+Please note that the use of a GPU cluster is required.
 
 ## Proximal Alternating Linearized Minimization in Python
 The Python implementation of the PALM algorithm is a translation of a Matlab code available [here](https://github.com/TLongin/Fusion-of-Magnetic-Resonance-and-Ultrasound-Images-for-Endometriosis-Detection). As Matlab and Python are two programming languages with certain specific features, we had to implement certain Matlab functions that are not available in Python. These functions are contained in the file `matlab_tools` where we used the GitHub [ResizeRight](https://github.com/assafshocher/ResizeRight) repository to implement the Matlab `resize` function in Python. The checkpoint to use DnCNN model and the code are from the GitHub [DnCNN Pytorch](https://github.com/SaoYan/DnCNN-PyTorch) repository and the `fspecial` function has been directly translated from Matlab. If you want to experiment PALM algorithm for image fusion, please run the file `PALM/palm_main.py`. The `PALM` folder contains only the Python implementation of the PALM algorithm and is completely separate from the DDFM model.
