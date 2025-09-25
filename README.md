@@ -8,16 +8,18 @@ This repository aims to present a fusion fo two models for images fusion. The fi
 We use the same experimental data as described in **[1]** which you can find in the associated Github repository [Fusion of Magnetic Resonance and Ultrasound Images for Endometriosis Detection](https://github.com/TLongin/Fusion-of-Magnetic-Resonance-and-Ultrasound-Images-for-Endometriosis-Detection).
 
 <p align="center">
-  <img src="images/Data1/irm.png" alt="Magnetic Resonance Imaging" width="45%">
-  <img src="images/Data1/us.png" alt="Ultrasound imaging" width="45%">
+  <img src="input-TLSE/Data1/irm.png" alt="Magnetic Resonance Imaging" width="45%">
+  <img src="input-TLSE/Data1/us.png" alt="Ultrasound imaging" width="45%">
 </p>
 
 Let us visualise the results of merging the two methods in order to compare them.
 
 <p align="center">
-  <img src="Results/PALM/20_palm.png" alt="Fused image (PALM)" width="45%">
+  <img src="Results/PALM/20_palm_denoising.png" alt="Fused image (PALM)" width="45%">
   <img src="Results/DDFM/20_palm_100_ddfm.png" alt="Fused image (DDFM)" width="45%">
 </p>
+
+Note that it is necessary to resize the MRI image before performing the fusion. In the DFFM algorithm, the images are assumed to be of the same size.
 
 ## Report
 For further details regarding this work, please refer to the report [Fusion d'images par résonance magnétique et ultrasons](https://drive.google.com/file/d/1EqD42Iw54JGWqdoAzLa9iBXeZQF84VMq/view?usp=drive_link) (french version).
