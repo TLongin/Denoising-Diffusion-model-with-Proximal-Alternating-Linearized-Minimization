@@ -21,6 +21,13 @@ Let us visualise the results of merging the two methods in order to compare them
 
 The image fused with the PALM algorithm is on the left and the image fused with the DDFM algorithm is on the right. Note that it is necessary to resize the MRI image before performing the fusion. In the DFFM algorithm, the images are assumed to be of the same size.
 
+Although it is clear that the DDFM model far surpasses PALM in terms of efficiency, it can be seen that the final result is qualitatively less satisfactory than that obtained with PALM. Indeed, although both images retain the contrasts associated with MRI, the image fused with PALM better preserves the high resolution of ultrasound, unlike the image fused with DDFM, which excessively favours the structure of MRI. We can deduce that the algorithm used for fusion in the diffusion process, namely Expectation Maximisation, is not sufficiently effective.  This algorithm was developed for the fusion of visible and infrared images, not for MRI and ultrasound images. We will therefore replace it with the PALM algorithm.
+
+<p align="center">
+  <img src="Results/PALM/20_palm_denoising.png" alt="Fused image (PALM)" width="45%">
+  <img src="Results/DDFM_PALM/20_palm_100_ddfm_denoising.png" alt="Fused image (DDFM)" width="45%">
+</p>
+
 ## Report
 For further details regarding this work, please refer to the report [Fusion d'images par résonance magnétique et ultrasons](https://drive.google.com/file/d/1EqD42Iw54JGWqdoAzLa9iBXeZQF84VMq/view?usp=drive_link) (french version).
 
