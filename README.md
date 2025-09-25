@@ -16,10 +16,10 @@ Let us visualise the results of merging the two methods in order to compare them
 
 <p align="center">
   <img src="Results/PALM/20_palm_denoising.png" alt="Fused image (PALM)" width="45%">
-  <img src="Results/DDFM/20_palm_100_ddfm.png" alt="Fused image (DDFM)" width="45%">
+  <img src="Results/DDFM_PALM/20_palm_100_ddfm.png" alt="Fused image (DDFM)" width="45%">
 </p>
 
-Note that it is necessary to resize the MRI image before performing the fusion. In the DFFM algorithm, the images are assumed to be of the same size.
+The image fused with the PALM algorithm is on the left and the image fused with the DDFM algorithm is on the right. Note that it is necessary to resize the MRI image before performing the fusion. In the DFFM algorithm, the images are assumed to be of the same size.
 
 ## Report
 For further details regarding this work, please refer to the report [Fusion d'images par résonance magnétique et ultrasons](https://drive.google.com/file/d/1EqD42Iw54JGWqdoAzLa9iBXeZQF84VMq/view?usp=drive_link) (french version).
