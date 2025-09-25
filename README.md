@@ -28,6 +28,18 @@ Although it is clear that the DDFM model far surpasses PALM in terms of efficien
   <img src="Results/DDFM_PALM/20_palm_100_ddfm_denoising.png" alt="Fused image (DDFM)" width="45%">
 </p>
 
+Visually, it is difficult to differentiate between the two images. Let us compute some metrics.
+
+| Metrics | PALM | DDFM - EM | DDFM - PALM |
+|:---------------|:--------------:|:---------------:|:---------------:|
+| EN         | 5.886         | 5.941         | 5.589 |
+| SD       | 52.615       | 66.184       | 48.587 |
+| MI       | 1.031       | 0.877       | 1.049|
+| VIF      | 0.254       | 0.108       |0.261 |
+| QAB/F      | -0.042       | 0.025       | -0.003|
+| SSIM       | 0.908      | 0.873       | 0.912|
+
+
 ## Report
 For further details regarding this work, please refer to the report [Fusion d'images par résonance magnétique et ultrasons](https://drive.google.com/file/d/1EqD42Iw54JGWqdoAzLa9iBXeZQF84VMq/view?usp=drive_link) (french version).
 
