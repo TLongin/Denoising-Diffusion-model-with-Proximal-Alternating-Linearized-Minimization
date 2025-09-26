@@ -41,7 +41,7 @@ Visually, it is difficult to differentiate between the two images. Let us comput
 
 
 ## Report
-For further details regarding this work, please refer to the report [Fusion d'images par résonance magnétique et ultrasons](https://drive.google.com/file/d/1EqD42Iw54JGWqdoAzLa9iBXeZQF84VMq/view?usp=drive_link) (french version).
+For further details regarding this work, please refer to the report [Fusion d'images par résonance magnétique et ultrasons](https://drive.google.com/drive/folders/1UrtJQBUryPRRbwraQZZrJzhzsJQ9_6RB?usp=sharing) (french version).
 
 ## Installation
 We recommend following the instructions provided in the Github repository [Denoising Diffusion Model for Multi-Modality Image fusion](https://github.com/Zhaozixiang1228/MMIF-DDFM), as the original code (which we modified for our needs) comes from there **[2]**. Follow the instructions provided with the files given in our repository. Please note that we used Python version 3.12 and not 3.8. It is advisable to install the packages listed in the Github repository (`requirement.txt` file) one by one and not all at once with the command indicated :
